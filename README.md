@@ -12,3 +12,6 @@
 2. The start button will again gets enabled only after clicking either stop or reset button.
 3. If the stop button is clicked, the timer stops and the text **"STOPPED"** will be visible at the top.
 4. Finally reset button, we are able to click reset button whenever(when the timer is running/stopped) we want. Clicking reset button will make the time set again to 00:00 and we can see default **"STOP WATCH"** text at the top.
+
+
+**URL to access the application : ** https://raghu-45577.github.io/Stop_Watch/

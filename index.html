@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stop Watch</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading" id="progress">STOP WATCH</div>
+      <div class="app">
+        <div class="holes">
+          <div class="hole"></div>
+          <div class="hole"></div>
+        </div>
+        <div class="display">
+          <div class="timer">
+            <span id="mins">00</span>
+            <span>:</span>
+            <span id="secs">00</span>
+          </div>
+          <div class="buttons">
+            <button class="btn btn-success button" id="start">Start</button>
+            <button class="btn btn-danger button" id="stop">Stop</button>
+            <button class="btn btn-primary button" id="reset">Reset</button>
+          </div>
+        </div>
+        <div class="holes">
+          <div class="hole"></div>
+          <div class="hole"></div>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
